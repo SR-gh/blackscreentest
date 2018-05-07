@@ -76,8 +76,10 @@ You probably need to change values in the following files :
 
 Tip: If you don't know these values, you can use the « Create Templates » button in the « Projects view > Build Steps > Build Android APK > Android » section.
 
-Run the callee application in order to deploy it. Check in Android Studio that the run configuration associated with this application does run nothing, with the « Edit Configurations… » choice in the combo box.
+Build the called application (blackscreenlaunched). Run it in order to deploy it. Check in Android Studio that the run configuration associated with this application does run nothing, with the « Edit Configurations… » choice in the combo box, otherwise you will get an error about not finding the default Activity.
 
-Run either of the caller applications : it will start an Activity asking for a button to be pressed. By pressing the button the callee Activity is started.
+Run either of the caller applications (app in Java and BlackScreenTest in C++). It will start an Activity with a button. Press the button to start the called Activity.
 
 If, at this moment, you press menu and go back to the application, you may experience a black screen with the Qt version and you probably won't with the Java version.
+
+If you want to play a bit more, in the called Activity, press the button to get a result back to the caller and observe the change in the displayed text.
