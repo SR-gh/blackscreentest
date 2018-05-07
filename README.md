@@ -1,6 +1,7 @@
 # blackscreentest
 Demonstrates an issue whent starting an activity from Qt on Android
-![Screenshot of both applications side by side](/img/sidebyside.jpg?raw=true "Screenshot : Qt to the left, Java to the right")
+
+![Screenshot of both applications side by side](/img/sidebyside.png?raw=true "Screenshot : Qt to the left, Java to the right")
 
 # Summary
 When using Qt to launch an Activity, you may find yourself with the Qt Activity displaying a black screen.
