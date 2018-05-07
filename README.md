@@ -65,9 +65,19 @@ Calling is done using a custom Intent.
 First, check that you have installed Qt, Qt Creator, Android NDK and Android SDK. The Android parts can be automatically downloaded by Android Studio.
 
 You can open the .pro file in Qt Creator.
+
 You can open the java project in the java directory in Android Studio.
 
-Run the callee application in order to deploy it. Check in Android Studio that the run configuration associated with this application does run nothing, with the Edit Configurations… choice in the combo box.
+In Qt Creator, choose an Android kit.
+
+You probably need to change values in the following files :
+- local.properties
+- gradle.properties
+
+Tip: If you don't know these values, you can use the « Create Templates » button in the « Projects view > Build Steps > Build Android APK > Android » section.
+
+Run the callee application in order to deploy it. Check in Android Studio that the run configuration associated with this application does run nothing, with the « Edit Configurations… » choice in the combo box.
+
 Run either of the caller applications : it will start an Activity asking for a button to be pressed. By pressing the button the callee Activity is started.
 
 If, at this moment, you press menu and go back to the application, you may experience a black screen with the Qt version and you probably won't with the Java version.
