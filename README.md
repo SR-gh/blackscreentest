@@ -1,5 +1,5 @@
 # blackscreentest
-Demonstrates an issue whent starting an activity from Qt on Android
+Demonstrates an issue when starting an activity from Qt on Android
 
 ![Screenshot of both applications side by side](/img/sidebyside.png?raw=true "Screenshot : Qt to the left, Java to the right")
 
