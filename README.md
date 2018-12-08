@@ -5,7 +5,7 @@ Demonstrates an issue when starting an activity from Qt on Android
 
 # Summary
 When using Qt to launch an Activity, you may find yourself with the Qt Activity displaying a black screen.
-The following Proof Of Concept has been made using Qt 5.10.1, NDK r10d.
+The following Proof Of Concept has been tested using Qt 5.12.0, NDK r18b.
 
 # Details
 When starting an Android Activity in order to get a result, you may use this kind of Java code :
